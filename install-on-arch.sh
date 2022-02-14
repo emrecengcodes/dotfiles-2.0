@@ -75,7 +75,8 @@ $HELPER -S picom-jonaburg-git\
 	   alacritty         \
 	   playerctl         \
 	   dunst             \
-	   xmonad-contrib    \
+	   xmonad-git        \
+	   xmonad-contrib-git\
 	   jq                \
 	   xclip             \
 	   maim              \
