@@ -43,7 +43,7 @@ case $vid in
 esac
 
 # install xorg if not installed
-sudo pacman -S --noconfirm --needed rofi feh xorg xorg-xinit xorg-xinput $DRI xmonad
+sudo pacman -S --noconfirm --needed rofi feh xorg xorg-xinit xorg-xinput $DRI 
 
 # install fonts
 mkdir -p ~/.local/share/fonts
@@ -85,7 +85,7 @@ $HELPER -S picom-jonaburg-git\
 	   betterlockscreen
 
 #install custom picom config file 
-mkdir -p ~/.config/
+sudo mkdir -p ~/.config/
 # cd .config/
 # git clone https://gist.github.com/f70dea1449cfae856d42b771912985f9.git ./picom 
     if [ -d ~/.config/rofi ]; then
